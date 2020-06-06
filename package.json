@@ -1,0 +1,27 @@
+{
+  "name": "grivnya-bot-but-cooler-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "compile": "tsc && node ./dist/index.js",
+    "dev": "nodemon -e ts  --exec \"npm run compile\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.7.21",
+    "@types/node": "^14.0.10",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.17",
+    "telegraf": "^3.38.0",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
